@@ -1,0 +1,112 @@
+.button-collapse{
+	display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+	.button-collapse{
+		display: block !important;
+	}
+
+	.dashboard {
+		margin-left: 0 !important;
+		padding: 10px !important;
+     	}
+
+	.first-text{
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.share-download{
+		font-size: 25px !important;
+	}
+
+	.form-container{
+		width: 96% !important;
+		margin: 0 auto;
+	}
+
+	.tos{
+		max-width: 150px;
+	}
+
+	.file{
+		font-size: 1em;
+		white-space:nowrap;
+    		text-overflow: ellipsis;
+	}
+
+	.upload-text-container
+	{
+		width: 100% !important;
+	}
+
+	.mobileshow{
+		display: block !important;
+	}
+
+	.file-name{
+		max-width: 230px !important;
+		overflow:hidden;
+		white-space:nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.s4{
+		    width: 31.14444% !important;
+	}
+
+	.s4 h3{
+		font-size: 1em;
+	}
+
+	.button-collapse .material-icons{
+		font-size: 34px;
+	      padding-top: 10px;
+	      padding-left: 8px;
+	}
+
+	.mobilehide{
+		display: none !important;
+	}
+
+	#container{
+		max-width: 100%;
+	}
+
+	#nav{
+		position: initial !important;
+	}
+
+	.home{
+		position: initial !important;
+	}
+
+	.home h1{
+		font-size: 40px !important;
+		margin-top: 50px !important;
+	}
+
+	.parallax-container{
+		height: 200px !important;
+	}
+
+	.container-text{
+		margin-top: 0px !important;
+		font-size: 22px !important;
+		text-align: center !important;
+	}
+
+	.home-container p{
+		width: 100% !important;
+		text-align: center !important;
+	}
+
+	.hide-mobile{
+		display: none;
+	}
+
+	.hide{
+		display: block !important;
+	}
+}

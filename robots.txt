@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /css/
+Sitemap: https://byte365.net/sitemap.xml

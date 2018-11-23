@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500');
+
+@media only screen and (max-width: 600px) {
+    .mobile-show{
+          display: block !important;
+   }
+
+   .mobile-show-table{
+         display: table !important;
+   }
+
+   .mobile-hide-table{
+         display: none !important;
+   }
+
+   .pricing-mobile{
+         margin: 0 auto;
+         text-align: center;
+   }
+
+   .price-container{
+         width: 100% !important;
+   }
+
+   .mobile-hide{
+         display: none !important;
+   }
+
+   .header-text{
+         width: 100% !important;
+         text-align: center;
+         top: 140px !important;
+   }
+
+   .features-mobile{
+         margin: 0 auto !important;
+         text-align: center !important;
+         width: 100% !important;
+   }
+
+   .quick-login{
+         display: none;
+   }
+
+   .header-text h1{
+         text-align: center;
+         font-size: 40px;
+   }
+}
+
+
+
+
+
+*{
+      -webkit-font-smoothing: antialiased;
+}
+
+.mobile-show{
+      display: none;
+}
+
+.mobile-hide-table{
+      display: table;
+}
+
+.mobile-hide{
+      display: block;
+}
+
+html, body{
+      margin: 0px;
+      padding: 0px;
+}
+
+#container{
+      position: relative;
+      top: 64px;
+}
+
+#bg{
+      background: url('https://images.pexels.com/photos/1587/blurred-background.jpg?w=1260&h=750&auto=compress&cs=tinysrgb');
+      width: 100%;
+      height: 600px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+body{
+      background: #fff;
+}
+
+.nav{
+      height: 65px;
+      width: 100%;
+      line-height: 65px;
+      z-index: 9999;
+      background: #FFF;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+      position: fixed;
+}
+
+.nav .right{
+      float: right;
+      margin-right: 30px;
+}
+
+.nav .right a{
+      color: #545454;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      text-decoration: none;
+      margin-left: 35px;
+}
+
+.header-text{
+      width: 65%;
+      margin: 0 auto;
+}
+
+.block-two{
+      padding-top: 10px;
+}
+
+.features{
+      text-align: center;
+      margin: 0 auto;
+      width: 650px;
+      margin-bottom: 40px;
+}
+
+.pricing{
+      margin: 0 auto;
+      width: 1000px;
+}
+
+.features tr td p{
+      font-family: 'Roboto', sans-serif;
+      color: #444444;
+      font-size: 16px;
+}
+
+.price-container{
+      width: 300px;
+      border: 1px solid #c5c5c5;
+}
+
+.price-title{
+      padding: 15px;
+      font-size: 22px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+}
+
+.gray{
+      background: #ececec;
+}
+
+.blue{
+      background: #0087ff;
+      color: #FFF !important;
+}
+
+.block-two > h3{
+      margin-top: 50px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      letter-spacing: .8px;
+      color: #444444;
+      font-size: 30px;
+}
+
+.price-content{
+      padding: 20px;
+}
+
+.reg-link{
+      color: #404040;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+}
+
+.price{
+      font-weight: 100;
+      font-family: 'Roboto', sans-serif;
+      font-size: 40px;
+      letter-spacing: 1px;
+      color: #404040;
+      margin-top: 8px;
+}
+
+.block-three{
+      margin-top: 40px;
+      background: #f1f1f1;
+      width: 100%;
+      padding-bottom: 40px;
+}
+
+.review-text{
+      padding-top: 15px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      color: #404040;
+}
+
+.review-name{
+      text-align: right;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      color: #404040;
+}
+
+.block-three > h3{
+      padding-top: 20px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      letter-spacing: .8px;
+      color: #616161;
+      font-size: 30px;
+}
+
+.review-box{
+      background: #FFF;
+      width: 450px;
+      border: 1px solid #cecece;
+      margin: 0 auto;
+      padding: 15px;
+}
+
+a{
+      text-decoration: none;
+}
+
+.space{
+      padding: 2px;
+}
+
+.price-desc{
+      color: #5d5d5d;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+}
+
+.month{
+      font-family: 'Roboto', sans-serif;
+      color: #404040;
+}
+
+.reg-btn{
+      margin-top: 15px;
+      border: 1px solid #3a94ff;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      text-decoration: none;
+      padding: 8px;
+      width: 100%;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      box-sizing: border-box;
+      color: #3a94ff;
+      transition: .6s;
+      -moz-transition: .6s;
+}
+
+.reg-btn:hover{
+      background: #e5faff;
+}
+
+.header-desc{
+      position: relative;
+      top: 210px;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+      letter-spacing: .6px;
+      text-align: left;
+      color: #464646;
+      font-size: 18px;
+}
+
+.mobile-hide{
+      display: none;
+}
+
+.quick-login h3{
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+      padding-bottom: 20px;
+}
+
+.left{
+      float: left;
+      line-height: 65px;
+}
+
+.left img{
+      height: 40px;
+}
+
+.quick-login{
+      background: #FFF;
+      position: relative;
+      float: right;
+      width: 450px;
+      right: 250px;
+      padding: 20px;
+      top: 20px;
+}
+
+.quick-login .btn{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      border: 1px solid #e0e0e0;
+      background: #1d80f9;
+      color: #FFF;
+}
+
+input[type="text"], input[type="password"]{
+      padding: 10px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border: 1px solid #bdbdbd;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 4px;
+      color: #585858;
+}
+
+h1{
+      position: relative;
+      top: 190px;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+      letter-spacing: .6px;
+      text-align: left;
+      color: #464646;
+      font-size: 54px;
+}
